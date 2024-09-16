@@ -65,11 +65,16 @@ const config: Config = {
   themeConfig: {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
+    colorMode: {
+      defaultMode: 'dark',  
+      disableSwitch: true,  
+      respectPrefersColorScheme: false,  
+    },
     navbar: {
-      title: 'My Site',
+      title: 'Documentation',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'API Hat Logo',
+        src: '/img/logo.png',
       },
       items: [
         {
