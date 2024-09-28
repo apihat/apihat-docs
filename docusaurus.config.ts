@@ -52,11 +52,7 @@ const config: Config = {
     image: 'img/docusaurus-social-card.jpg',
 
     navbar: {
-      title: 'Documentation',
-      logo: {
-        alt: 'API Hat Logo',
-        src: '/img/logo.png',
-      },
+      title: 'API Hat Documentation',
       items: [
 
         {
@@ -71,7 +67,6 @@ const config: Config = {
       ],
     },
     footer: {
-      style: 'dark',
       links: [
         {
           title: 'Products',
