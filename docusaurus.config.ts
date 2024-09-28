@@ -50,11 +50,7 @@ const config: Config = {
   themeConfig: {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
-    colorMode: {
-      defaultMode: 'dark',  
-      disableSwitch: true,  
-      respectPrefersColorScheme: false,  
-    },
+
     navbar: {
       title: 'Documentation',
       logo: {
@@ -62,14 +58,13 @@ const config: Config = {
         src: '/img/logo.png',
       },
       items: [
+
         {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
-          position: 'left',
-          label: 'Tutorial',
+          href: 'https://apihat.com/contact',
+          label: 'Support',
         },
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/apihat',
           label: 'GitHub',
           position: 'right',
         },
@@ -96,7 +91,7 @@ const config: Config = {
           items: [
             {
               label: 'Node.js',
-              to: '#',
+              to: 'https://apihat.com/nodejs',
             },
             {
               label: 'Java',
